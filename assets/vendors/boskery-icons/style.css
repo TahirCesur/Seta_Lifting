@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot');
+  src:  url('fonts/icomoon.eot') format('embedded-opentype'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-right:before {
+  content: "\e901";
+}
+.icon-left:before {
+  content: "\e902";
+}
+.icon-meat-10:before {
+  content: "\e900";
+}
+.icon-quotes-3 .path1:before {
+  content: "\e9d5";
+  color: rgb(255, 255, 255);
+}
+.icon-quotes-3 .path2:before {
+  content: "\e9d6";
+  margin-left: -1.3486328125em;
+  color: rgb(164, 33, 37);
+}
+.icon-quotes-2:before {
+  content: "\e9d4";
+}
+.icon-quotes:before {
+  content: "\e9d3";
+}
+.icon-table:before {
+  content: "\e9d2";
+}
+.icon-star:before {
+  content: "\e9d1";
+}
+.icon-arrow-left:before {
+  content: "\e9ce";
+}
+.icon-arrow-right:before {
+  content: "\e9cf";
+}
+.icon-speech-bubble:before {
+  content: "\e9d0";
+}
+.icon-plus:before {
+  content: "\e9cd";
+}
+.icon-mobile:before {
+  content: "\e9cc";
+}
+.icon-achievement:before {
+  content: "\e909";
+}
+.icon-add:before {
+  content: "\e90a";
+}
+.icon-apple:before {
+  content: "\e90b";
+}
+.icon-box:before {
+  content: "\e90c";
+}
+.icon-bull:before {
+  content: "\e90d";
+}
+.icon-butchering:before {
+  content: "\e90e";
+}
+.icon-cart:before {
+  content: "\e90f";
+}
+.icon-chat:before {
+  content: "\e910";
+}
+.icon-check:before {
+  content: "\e911";
+}
+.icon-check-mark:before {
+  content: "\e912";
+}
+.icon-chicken:before {
+  content: "\e91d";
+}
+.icon-chicken-1:before {
+  content: "\e91e";
+}
+.icon-chicken-leg:before {
+  content: "\e91f";
+}
+.icon-cow:before {
+  content: "\e920";
+}
+.icon-down-arrow:before {
+  content: "\e921";
+}
+.icon-duck:before {
+  content: "\e922";
+}
+.icon-email:before {
+  content: "\e923";
+}
+.icon-facebook:before {
+  content: "\e924";
+}
+.icon-fast-delivery:before {
+  content: "\e927";
+}
+.icon-goat:before {
+  content: "\e928";
+}
+.icon-goose:before {
+  content: "\e929";
+}
+.icon-grass:before {
+  content: "\e92a";
+}
+.icon-healthcare-1:before {
+  content: "\e943";
+}
+.icon-healthy-food:before {
+  content: "\e94f";
+}
+.icon-hidden:before {
+  content: "\e950";
+}
+.icon-instagram:before {
+  content: "\e960";
+}
+.icon-linkedin-big-logo:before {
+  content: "\e961";
+}
+.icon-login:before {
+  content: "\e962";
+}
+.icon-maps-and-flags:before {
+  content: "\e963";
+}
+.icon-meat:before {
+  content: "\e964";
+}
+.icon-meat-1:before {
+  content: "\e965";
+}
+.icon-meat-2:before {
+  content: "\e966";
+}
+.icon-meat-3:before {
+  content: "\e967";
+}
+.icon-meat-5:before {
+  content: "\e97c";
+}
+.icon-meat-6:before {
+  content: "\e97d";
+}
+.icon-meat-7:before {
+  content: "\e97e";
+}
+.icon-meat-8:before {
+  content: "\e97f";
+}
+.icon-menu-bar:before {
+  content: "\e98e";
+}
+.icon-next:before {
+  content: "\e98f";
+}
+.icon-no-preservatives:before {
+  content: "\e990";
+}
+.icon-order:before {
+  content: "\e9a8";
+}
+.icon-padlock:before {
+  content: "\e9a9";
+}
+.icon-paper-plane:before {
+  content: "\e9aa";
+}
+.icon-phone-call:before {
+  content: "\e9ab";
+}
+.icon-play:before {
+  content: "\e9ac";
+}
+.icon-quality:before {
+  content: "\e9ad";
+}
+.icon-rabbit:before {
+  content: "\e9ae";
+}
+.icon-reindeer:before {
+  content: "\e9af";
+}
+.icon-search:before {
+  content: "\e9b1";
+}
+.icon-share:before {
+  content: "\e9c2";
+}
+.icon-share-1:before {
+  content: "\e9c3";
+}
+.icon-sheep-front:before {
+  content: "\e9c4";
+}
+.icon-telephone:before {
+  content: "\e9c5";
+}
+.icon-tenderloin:before {
+  content: "\e9c6";
+}
+.icon-time:before {
+  content: "\e9c7";
+}
+.icon-turkey:before {
+  content: "\e9c8";
+}
+.icon-twitter:before {
+  content: "\e9c9";
+}
+.icon-user:before {
+  content: "\e9ca";
+}
+.icon-youtube:before {
+  content: "\e9cb";
+}

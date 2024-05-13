@@ -1,0 +1,218 @@
+:root {
+  --boskery-text: #7A7373;
+  --boskery-text-rgb: 122, 115, 115;
+  --boskery-base: #db9b06;
+  --boskery-base-rgb: 164, 33, 37;
+  --boskery-white: #fff;
+  --boskery-white-rgb: 0, 0, 0;
+  --boskery-white2: #1E1D1D;
+  --boskery-white2-rgb: 30, 29, 29;
+  --boskery-white3: #F6F2EC;
+  --boskery-white3-rgb: 246, 242, 236;
+  --boskery-black: #FFFFFF;
+  --boskery-black-rgb: 255, 255, 255;
+  --boskery-black2: #111111;
+  --boskery-black2-rgb: 17, 17, 17;
+  --boskery-black3: #100F0F;
+  --boskery-black3-rgb: 16, 15, 15;
+  --boskery-gray: #EBE3D9;
+  --boskery-gray-rgb: 235, 227, 217;
+  --boskery-border-color: #7A7373;
+  --boskery-border-color-rgb: 122, 115, 115;
+}
+
+.body {
+  background-color: var(--boskery-white);
+}
+
+.boskery-btn {
+  color: var(--boskery-black);
+}
+.boskery-btn i::after {
+  background-color: rgba(var(--boskery-black-rgb), 0.2);
+}
+.boskery-btn:hover {
+  color: var(--boskery-base);
+}
+.boskery-btn:hover i::after {
+  background-color: var(--boskery-gray);
+}
+.boskery-btn.main-header__contac-btn:hover {
+  color: var(--boskery-black);
+}
+
+.main-header--three,
+.main-header--three .main-header__contac-btn .boskery-btn__hover,
+.mobile-nav__btn span,
+.about-three__experience__text,
+.meat-category,
+.meat-category .meat-category__bg,
+.main-footer,
+.sidebar-one__content,
+.mobile-nav__content {
+  background-color: var(--boskery-white2);
+}
+
+.hero-slider-three.hero-main-slider .owl-dots .owl-dot:hover span,
+.hero-slider-three.hero-main-slider .owl-dots .owl-dot.active span,
+.main-header--three .main-header__inner,
+.main-header--three .main-header__sidebar-btn span,
+.delivery-one__circle-text__bg,
+.footer-widget .boskery-btn .boskery-btn__hover,
+.sticky-header--cloned.main-header--three,
+.mobile-nav__content .main-menu__list li a button.expanded {
+  background-color: var(--boskery-black);
+}
+
+.main-header--three .main-header__social a,
+.main-header--three .main-header__call__icon {
+  background-color: rgba(var(--boskery-black-rgb), 0.1);
+}
+
+.main-header--three .main-header__bg::after {
+  background-color: rgba(var(--boskery-white2-rgb), 0.85);
+}
+
+.hero-slider-three__bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(var(--boskery-white2-rgb), 0.5);
+}
+
+.main-header--three .main-header__search::after,
+.main-header--three .main-header__call::before {
+  background-color: rgba(var(--boskery-black-rgb), 0.2);
+}
+
+.about-three__info__icon,
+.progress-box__bar,
+.testimonials-three__card__image::after {
+  background-color: var(--boskery-white3);
+}
+
+.about-three__profile__left::after {
+  background-color: var(--boskery-text);
+}
+
+.client-carousel--three .client-carousel__bg::after {
+  background-color: rgba(var(--boskery-white2-rgb), 0.7);
+}
+
+.meat-category .meat-category__bg::after {
+  background-color: rgba(var(--boskery-white2-rgb), 0.5);
+}
+
+.pricing-card,
+.pricing-one__main-tab-box .tab-buttons .tab-btn {
+  background-color: var(--boskery-black2);
+}
+
+.why-choose-card__image__content,
+.blog-card-three__bg::after {
+  background-color: rgba(var(--boskery-white2-rgb), 0.8);
+}
+
+.blog-card-three {
+  background-color: var(--boskery-white);
+}
+
+.footer-widget__social a {
+  background-color: var(--boskery-black3);
+}
+
+.sidebar-one__newsletter__input {
+  background-color: rgba(var(--boskery-black-rgb), 0.09);
+}
+
+.why-choose-card__image .boskery-btn:hover i::after {
+  background-color: rgba(var(--boskery-gray-rgb), 0.5);
+}
+
+.meat-category__bg {
+  opacity: 0.6;
+}
+
+.why-choose-three__bg {
+  background: linear-gradient(90deg, rgba(30, 29, 29, 0) 1.1%, rgba(30, 29, 29, 0.8) 22.56%, #1E1D1D 37.56%);
+}
+
+.topbar--three .topbar__info li,
+.topbar--three .topbar__info li i,
+.main-header--three .main-header__social a,
+.main-header--three .main-header__search,
+.main-header--three .main-header__cart,
+.main-header--three .main-header__call__number,
+.main-header--three .main-header__call__icon,
+.about-three__experience__title,
+.about-three__experience__year,
+.hero-slider-three__scroll-btn,
+.meat-category .sec-title__title,
+.why-choose-card__image__title__title,
+.why-choose-card__image__title__tagline,
+.testimonials-three__card__name,
+.testimonials-three__card__designation,
+.why-choose-three__card__icon,
+.blog-card-three__date,
+.blog-card-three__title,
+.blog-card-three__meta li a,
+.blog-card-three__meta li a span,
+.footer-widget__title,
+.footer-widget__social a,
+.footer-widget__gallery__icon,
+.sidebar-one__social a,
+.sidebar-one__title,
+.sidebar-one__newsletter__btn span,
+.sidebar-one__close,
+.mobile-nav__close,
+.mobile-nav__content .main-menu__list li > a,
+.mobile-nav__content .main-menu__list li a button,
+.mobile-nav__contact li,
+.mobile-nav__contact li > i,
+.mobile-nav__social a,
+.main-menu .main-menu__list li ul li > a::after,
+.about-three__info__inner:hover .about-three__info__icon,
+.hero-slider-three__scroll-btn:hover,
+.meat-category .meat-category__inner:hover .meat-category__title,
+.pricing-one__main-tab-box .tab-buttons .tab-btn:hover,
+.pricing-one__main-tab-box .tab-buttons .tab-btn.active-btn,
+.contact__info__inner:hover .contact__info__icon,
+.boskery-owl__carousel--basic-nav.owl-carousel .owl-nav button:hover,
+.main-menu .main-menu__list li ul li:hover > a {
+  color: var(--boskery-black3);
+}
+
+.hero-slider-three__text,
+.sidebar-one__about__text {
+  color: var(--boskery-white3);
+}
+
+.mobile-nav__content .main-menu__list li a button.expanded {
+  color: var(--boskery-white2);
+}
+
+.pricing-one__main-tab-box .tab-buttons .tab-btn {
+  color: var(--boskery-text);
+}
+
+.why-choose-three__card:hover .why-choose-three__card__icon,
+.boskery-owl__carousel--basic-nav.owl-carousel .owl-nav button {
+  color: var(--boskery-base);
+}
+
+.testimonials-three__card__quotes path {
+  stroke: var(--boskery-black);
+}
+
+.meat-category .meat-category__top {
+  border-color: rgba(var(--boskery-black-rgb), 0.2);
+}
+
+.main-footer__top,
+.mobile-nav__content .main-menu__list li:not(:last-child) {
+  border-color: rgba(var(--boskery-black-rgb), 0.1);
+}
+/*# sourceMappingURL=boskery-dark.css.map */
